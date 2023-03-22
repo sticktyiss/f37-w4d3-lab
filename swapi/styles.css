@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url("https://lumiere-a.akamaihd.net/v1/images/alderaan-main_f5b676cf.jpeg?region=0%2C40%2C1280%2C640");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Orbitron";
+  background-repeat: none;
+  font-weight: bolder; 
+}
+
+.head1 {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: bold;
+  background-color: grey;
+  opacity: 70%;
+  border: 3px solid black;
+}
+
+section, h2 {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding-top: 75px;
+}
+
+h2 {
+  padding-top: 10px;
+}
+
+.btn1 {
+  border:  3px solid black;
+  border-radius: 3px;
+  font-family: "Orbitron";
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background-color: rgb(16, 117, 117);
+}
+
+#plchlder {
+  font-family: "Orbitron";
+  font-weight: 900;
+  border: 3px solid black;
+  border-radius: 3px;
+}
